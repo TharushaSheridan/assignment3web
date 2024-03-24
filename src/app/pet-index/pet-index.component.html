@@ -1,1 +1,16 @@
-<p>pet-index works!</p>
+<h2>Pet catalog</h2>
+<table>
+  <tr *ngFor="let p of pets">
+    <td>
+      <a [routerLink]="['pets',p.id]">
+        <img class="thumb"
+             [src]="p.smallImgSrc" [alt]="p.name">
+      </a>
+    </td>
+    <td>
+      <span class="pet_name">{{p.name}}</span>&nbsp;&nbsp;
+      <span class="pet_age">{{p.age }}</span><br>
+      {{p.petKind}}
+    </td>
+  </tr>
+</table>

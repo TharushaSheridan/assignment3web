@@ -1,0 +1,37 @@
+h2 {
+  color: #00bcd4;
+}
+
+td{
+  padding: 6px
+}
+
+table{
+  width: 600px;
+}
+p.smallImgSrc{
+  background: #03a9f4;
+  box-shadow: 4px 4px 10px #03a9f4;
+  border: solid 2px #03a9f4;
+  width: 200px;
+  height: 200px;
+
+}
+
+span.pet_name{
+  color: #673ab7;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+span.pet_age{
+  font-size: larger;
+  font-weight: bolder;
+  color: #00C853;
+}
+
+img.thumb{
+  margin:8px;
+  border: solid 2px #03a9f4;
+  background: #03a9f4;
+}

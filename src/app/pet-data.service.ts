@@ -10,7 +10,7 @@ export class PetDataService {
   private pets: Pet[] = []
   constructor() {
     catalog.pets.forEach(
-      (flowerJson: PetJson) => this.pets.push(PetDataService.json2Pet(petJson)));
+      (petJson: PetJson) => this.pets.push(PetDataService.json2Pet(petJson)));
   }
 
   private static imageFolder = 'assets/images/pets/';
@@ -31,7 +31,8 @@ export class PetDataService {
     return this.pets;
   }
 
-  public getPet(id: number): Pet | undefined {
+  public getPet(id: string): Pet | undefined {
+    // @ts-ignore
     return this.pets.find(pet => pet.id === id)
   }
 

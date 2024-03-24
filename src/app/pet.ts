@@ -1,4 +1,4 @@
-import {ImageJson} from "./json-structure";
+// import {ImageJson} from "./json-structure";
 
 export class Pet {
   public id: number= 0;
