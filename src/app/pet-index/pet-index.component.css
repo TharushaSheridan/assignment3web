@@ -1,5 +1,7 @@
 h2 {
-  color: #00bcd4;
+  color: black;
+  margin: 10px;
+  text-align: center;
 }
 
 td{
@@ -8,11 +10,12 @@ td{
 
 table{
   width: 600px;
+  align-content: center;
 }
 p.smallImgSrc{
   background: #03a9f4;
   box-shadow: 4px 4px 10px #03a9f4;
-  border: solid 2px #03a9f4;
+  border: solid 2px #673ab7;
   width: 200px;
   height: 200px;
 
@@ -34,4 +37,6 @@ img.thumb{
   margin:8px;
   border: solid 2px #03a9f4;
   background: #03a9f4;
+  width: 200px;
+  height: 200px;
 }

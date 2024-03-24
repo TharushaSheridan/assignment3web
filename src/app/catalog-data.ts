@@ -2,7 +2,7 @@ import {CatalogJson} from "./json-structure";
 
 export const catalog: CatalogJson = {
   "pets" : [ {
-    "id" : 1,
+    "id" : '1',
     "name" : "Charlie",
     "petKind" : "dog",
     "age" : 3,
@@ -20,7 +20,7 @@ export const catalog: CatalogJson = {
     //   }
     // }
   }, {
-    "id" : 2,
+    "id" : '2',
     "name" : "Fluffy",
     "petKind" : "cat",
     "age" : 2,
@@ -38,7 +38,7 @@ export const catalog: CatalogJson = {
     //   }
     // }
   }, {
-    "id" : 3,
+    "id" : '3',
     "name" : "Oscar",
     "petKind" : "cat",
     "age" : 6,
@@ -56,7 +56,7 @@ export const catalog: CatalogJson = {
     //   }
     // }
   }, {
-    "id" : 4,
+    "id" : '4',
     "name" : "Tweety",
     "petKind" : "canary",
     "age" : 3,
@@ -74,7 +74,7 @@ export const catalog: CatalogJson = {
     //   }
     // }
   }, {
-    "id" : 5,
+    "id" : '5',
     "name" : "Riley",
     "petKind" : "dog",
     "age" : 5,
@@ -92,7 +92,7 @@ export const catalog: CatalogJson = {
     //   }
     // }
   }, {
-    "id" : 6,
+    "id" : '6',
     "name" : "Sam",
     "petKind" : "rabbit",
     "age" : 2,
@@ -110,7 +110,7 @@ export const catalog: CatalogJson = {
     //   }
     // }
   }, {
-    "id" : 7,
+    "id" : '7',
     "name" : "Marx",
     "petKind" : "hamster",
     "age" : 1,

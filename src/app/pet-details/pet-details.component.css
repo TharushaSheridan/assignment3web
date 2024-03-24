@@ -10,21 +10,21 @@
   color: #ff9800;
   margin-left: 1em;
 }
-
-
-img.pet_image{
-  background: #03a9f4;
-  box-shadow: 4px 4px 10px #03a9f4;
-  border: solid 2px #03a9f4;
-
+.pet_image{
+  margin:8px;
+  /*border: solid 2px #03a9f4;*/
+  /*background: #03a9f4;*/
+  width: 400px;
+  height: 400px;
 }
+
 
 .text_box{
   width: 300px;
 }
 
 a{
-  color: limegreen;
+  color: saddlebrown;
   font-weight: bolder;
 }
 
